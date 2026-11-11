@@ -1,0 +1,39 @@
+{
+  "radius": 1.0,
+  "source": [
+    {
+      "id": "s0",
+      "west": -180,
+      "width": 360,
+      "south": 80,
+      "north": 90
+    }
+  ],
+  "target": [
+    {
+      "id": "polar",
+      "west": 0,
+      "width": 360,
+      "south": 80,
+      "north": 90
+    }
+  ],
+  "frames": [
+    {
+      "id": "one",
+      "values": {
+        "s0": 3
+      },
+      "valid": {
+        "s0": true
+      },
+      "variance": {
+        "s0": 2
+      }
+    }
+  ],
+  "quantity": "intensive",
+  "min_coverage": 0.8,
+  "covariance_pairs": [],
+  "geometry_tolerance": 1e-12
+}
