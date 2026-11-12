@@ -1,0 +1,76 @@
+{
+  "radius": 1.0,
+  "source": [
+    {
+      "id": "s0",
+      "west": 350,
+      "width": 20,
+      "south": -5,
+      "north": 5
+    },
+    {
+      "id": "s1",
+      "west": 10,
+      "width": 20,
+      "south": -5,
+      "north": 5
+    }
+  ],
+  "target": [
+    {
+      "id": "t0",
+      "west": 345,
+      "width": 20,
+      "south": -5,
+      "north": 5
+    },
+    {
+      "id": "t1",
+      "west": 5,
+      "width": 20,
+      "south": -5,
+      "north": 5
+    }
+  ],
+  "frames": [
+    {
+      "id": "day1",
+      "values": {
+        "s0": 6,
+        "s1": 12
+      },
+      "valid": {
+        "s0": true,
+        "s1": true
+      },
+      "variance": {
+        "s0": 1,
+        "s1": 2
+      }
+    },
+    {
+      "id": "day2",
+      "values": {
+        "s0": null,
+        "s1": 12
+      },
+      "valid": {
+        "s0": false,
+        "s1": true
+      },
+      "variance": {
+        "s0": null,
+        "s1": 2
+      }
+    }
+  ],
+  "quantity": "intensive",
+  "min_coverage": 0.7,
+  "covariance_pairs": [
+    [
+      "t0",
+      "t1"
+    ]
+  ],
+  "geometry_tolerance": 1e-12
+}
